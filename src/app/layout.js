@@ -9,7 +9,6 @@ export const metadata = {
   title: "Google Cloud Study Jam",
   image: "/",
   type: "website",
-  description: "This is the leaderboard for the GDSC SSGMCE GCCP Jams.",
   keywords: ["gccp", "jams", "ssgmce", "gdscssgmce"],
   robots: "index,follow",
 }
