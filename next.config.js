@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Remove exportPathMap if you have it
-    // ...
+    // ... other configurations ...
   
     // Use generateStaticParams for defining your static paths
     async generateStaticParams() {
@@ -12,6 +11,14 @@ const nextConfig = {
         // Add more paths as needed
       };
     },
+  
+    // Add the output configuration for export
+    output: {
+      // Set the value to "export" for static HTML export
+      export: true,
+    },
+  
+    // ... other configurations ...
   };
   
   module.exports = nextConfig;
