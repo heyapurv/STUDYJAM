@@ -1,9 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Add the following line to enable static HTML export
-    exportPathMap: function () {
+    // Remove exportPathMap if you have it
+    // ...
+  
+    // Use generateStaticParams for defining your static paths
+    async generateStaticParams() {
+      // Define your static paths here
       return {
-        '/': { page: '/' }, // Add more paths as needed
+        '/': { page: '/' },
+        '/about': { page: '/about' },
+        // Add more paths as needed
       };
     },
   };
