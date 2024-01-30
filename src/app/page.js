@@ -38,12 +38,11 @@ export default function Home() {
         }
       </Script>
       <nav className='w-full  shadow-md relative '>
-        <div className="bg-gray-900 text-blue-500 w-full m-auto text-center p-2 flex justify-center items-center ">
-         
-          <p className='text-lg'>
-            Thank you for participating in <br/> Google Cloud Study Jams 2023!
+        <div className="bg-gray-900 text-blue-500 w-full m-auto text-center p-2 flex justify-center items-center">
+          <p className='text-xl'>
+          Thank you for participating in Google Cloud Study Jams 2023!
           </p>
-        </div
+        </div>
 
         <div className="p-3 flex mob:flex-col m-auto max-w-6xl justify-between items-center">
           <div className="logo mob:border-b mob:border-b-gray-200 flex justify-center items-center">
@@ -55,6 +54,7 @@ export default function Home() {
               <p className="text-xs"> Shri Sant Gajanan Maharaj College of Engineering, Shegaon</p>
 
             </div>
+            
           </div>
 
           <div className="links mob:py-3 flex justify-center items-center space-x-5">
@@ -78,7 +78,7 @@ export default function Home() {
 
       <TableIndex />
 
-      <div className="  w-full p-2 text-center bg-gray-900 text-gray-300">Developed and Maintained by <a href="https://www.linkedin.com/in/apurvsprofile/" className="text-orange-400"> <br/> Apurv Gore - Google Cloud Facilitator</a> </div>
+      <div className="  w-full p-2 text-center bg-gray-900 text-gray-300">Developed and Maintained by <a href="https://www.linkedin.com/in/apurvsprofile/" className="text-orange-400"> <br /> Apurv Gore - Google Cloud Facilitator</a> </div>
     </>
   )
 }
