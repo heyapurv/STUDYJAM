@@ -80,7 +80,7 @@ export default function Home() {
 
       <TableIndex />
 
-      <div className="  w-full p-2 text-center bg-gray-900 text-gray-300">Developed and Maintained by <a href="https://www.linkedin.com/in/apurvsprofile/" className="text-orange-400"><br/>Apurv Gore - Google Cloud Facilitator</a> </div>
+      <div className="  w-full p-2 text-center bg-gray-900 text-gray-300">Developed and Maintained by <a href="https://www.linkedin.com/in/apurvsprofile/" className="text-orange-400"> <br/> Apurv Gore - Google Cloud Facilitator</a> </div>
     </>
   )
 }
