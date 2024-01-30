@@ -38,11 +38,9 @@ export default function Home() {
         }
       </Script>
       <nav className='w-full  shadow-md relative '>
-        <div className="bg-gray-900 text-blue-500 w-full m-auto text-center p-4  flex justify-center items-center ">
-          <div className=""><Image src="/assets/cloudLg.png" alt="me" width="40" height="40" /></div>
-        <br/>
-        
-          <p className=''>
+        <div className="bg-gray-900 text-blue-500 w-full m-auto text-center p-2 flex justify-center items-center ">
+         
+          <p className='text-lg'>
             Thank you for participating in <br/> Google Cloud Study Jams 2023!
           </p>
         </div
