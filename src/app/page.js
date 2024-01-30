@@ -38,7 +38,7 @@ export default function Home() {
         }
       </Script>
       <nav className='w-full  shadow-md relative '>
-        <div className="bg-gray-900 text-blue-500 w-full m-auto text-center p-3  flex justify-around items-center ">
+        <div className="bg-gray-900 text-blue-500 w-full m-auto text-center p-4  flex justify-center items-center ">
           <span className=""><Image src="/assets/cloudLg.png" alt="me" width="40" height="40" /></span>
         <br/>
         
